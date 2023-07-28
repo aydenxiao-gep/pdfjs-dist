@@ -176,7 +176,7 @@ export class PDFLinkService implements IPDFLinkService {
      * @param {number} pageNumber
      */
     isPageCached(pageNumber: number): any;
-    #private;
+    private;
 }
 /**
  * @implements {IPDFLinkService}

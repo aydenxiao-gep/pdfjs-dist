@@ -53,7 +53,7 @@ export class FreeTextEditor extends AnnotationEditor {
         rect: any[];
         rotation: any;
     } | null;
-    #private;
+    private;
 }
 import { AnnotationEditor } from "./editor.js";
 import { KeyboardManager } from "./tools.js";

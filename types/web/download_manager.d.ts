@@ -10,5 +10,5 @@ export class DownloadManager implements IDownloadManager {
      */
     openOrDownloadData(element: any, data: any, filename: any): boolean;
     download(blob: any, url: any, filename: any): void;
-    #private;
+    private;
 }

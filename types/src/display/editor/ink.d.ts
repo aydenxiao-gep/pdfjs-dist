@@ -79,7 +79,7 @@ export class InkEditor extends AnnotationEditor {
         rect: any[];
         rotation: any;
     } | null;
-    #private;
+    private;
 }
 import { AnnotationEditor } from "./editor.js";
 export { fitCurve };

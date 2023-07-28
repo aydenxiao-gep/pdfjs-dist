@@ -38,5 +38,5 @@ export class TextAccessibilityManager {
      * @param {HTMLDivElement} element
      */
     moveElementInDOM(container: any, element: HTMLDivElement, contentElement: any, isRemovable: any): void;
-    #private;
+    private;
 }

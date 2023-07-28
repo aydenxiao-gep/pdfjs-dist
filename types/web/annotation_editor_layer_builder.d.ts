@@ -43,5 +43,5 @@ export class AnnotationEditorLayerBuilder {
     cancel(): void;
     hide(): void;
     show(): void;
-    #private;
+    private;
 }

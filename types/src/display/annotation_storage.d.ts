@@ -52,7 +52,7 @@ export class AnnotationStorage {
      * @ignore
      */
     get serializable(): Map<any, any> | null;
-    #private;
+    private;
 }
 /**
  * A special `AnnotationStorage` for use during printing, where the serializable
@@ -66,5 +66,5 @@ export class PrintAnnotationStorage extends AnnotationStorage {
      * @ignore
      */
     get serializable(): null;
-    #private;
+    private;
 }

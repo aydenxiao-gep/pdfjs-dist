@@ -80,5 +80,5 @@ export class PDFFindController {
     _resumePageIdx: any;
     _firstPageCapability: any;
     _rawQuery: any;
-    #private;
+    private;
 }

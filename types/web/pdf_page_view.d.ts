@@ -207,7 +207,7 @@ export class PDFPageView implements IRenderableView {
      * @ignore
      */
     get thumbnailCanvas(): HTMLCanvasElement | null | undefined;
-    #private;
+    private;
 }
 import { AnnotationLayerBuilder } from "./annotation_layer_builder.js";
 import { AnnotationEditorLayerBuilder } from "./annotation_editor_layer_builder.js";

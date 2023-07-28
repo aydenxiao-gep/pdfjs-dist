@@ -7,5 +7,5 @@ export class Metadata {
     get(name: any): any;
     getAll(): any;
     has(name: any): any;
-    #private;
+    private;
 }

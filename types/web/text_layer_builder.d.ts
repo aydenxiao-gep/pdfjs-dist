@@ -59,5 +59,5 @@ export class TextLayerBuilder {
      * @param {ReadableStream | TextContent} source
      */
     setTextContentSource(source: ReadableStream | TextContent): void;
-    #private;
+    private;
 }

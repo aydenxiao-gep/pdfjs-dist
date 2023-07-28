@@ -205,7 +205,7 @@ export class ProgressBar {
     setWidth(viewer: any): void;
     hide(): void;
     show(): void;
-    #private;
+    private;
 }
 /**
  * @param {string} str

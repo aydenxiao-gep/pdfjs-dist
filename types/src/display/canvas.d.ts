@@ -152,7 +152,7 @@ export class CanvasGraphics {
     getScaleForStroking(): number[];
     rescaleAndStroke(saveRestore: any): void;
     isContentVisible(): boolean;
-    #private;
+    private;
 }
 declare class CanvasExtraState {
     constructor(width: any, height: any);

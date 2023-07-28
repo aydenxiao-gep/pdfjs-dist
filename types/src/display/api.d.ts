@@ -647,7 +647,7 @@ export class LoopbackPort {
     addEventListener(name: any, listener: any): void;
     removeEventListener(name: any, listener: any): void;
     terminate(): void;
-    #private;
+    private;
 }
 /**
  * Abstract class to support range requests file loading.
@@ -742,7 +742,7 @@ export class PDFDocumentLoadingTask {
      *   completed.
      */
     destroy(): Promise<void>;
-    #private;
+    private;
 }
 /**
  * Proxy to a `PDFDocument` in the worker thread.
@@ -1419,7 +1419,7 @@ export class RenderTask {
      * @type {boolean}
      */
     get separateAnnots(): boolean;
-    #private;
+    private;
 }
 /**
  * Sets the function that instantiates an {IPDFStream} as an alternative PDF
@@ -1475,7 +1475,7 @@ declare class PDFObjects {
      */
     resolve(objId: string, data?: any): void;
     clear(): void;
-    #private;
+    private;
 }
 import { MessageHandler } from "../shared/message_handler.js";
 export {};

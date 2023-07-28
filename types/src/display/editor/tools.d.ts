@@ -192,7 +192,7 @@ export class AnnotationEditorUIManager {
      * @returns {number}
      */
     getMode(): number;
-    #private;
+    private;
 }
 export function bindEvents(obj: any, element: any, names: any): void;
 export class ColorManager {
@@ -264,7 +264,7 @@ export class CommandManager {
      */
     hasSomethingToRedo(): boolean;
     destroy(): void;
-    #private;
+    private;
 }
 /**
  * Class to handle the different keyboards shortcuts we can have on mac or
@@ -289,7 +289,7 @@ export class KeyboardManager {
      * @returns
      */
     exec(self: any, event: KeyboardEvent): void;
-    #private;
+    private;
 }
 /**
  * Convert a number between 0 and 100 into an hex number between 0 and 255.

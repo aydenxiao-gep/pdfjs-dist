@@ -171,7 +171,7 @@ export class PDFPageViewBuffer {
     resize(newSize: any, idsToKeep?: null): void;
     has(view: any): boolean;
     [Symbol.iterator](): IterableIterator<any>;
-    #private;
+    private;
 }
 /**
  * Simple viewer control to display PDF content/pages.
@@ -458,6 +458,6 @@ export class PDFViewer {
     get annotationEditorMode(): number;
     set annotationEditorParams(arg: any);
     refresh(noUpdate?: boolean, updateArgs?: any): void;
-    #private;
+    private;
 }
 import { PDFRenderingQueue } from "./pdf_rendering_queue.js";

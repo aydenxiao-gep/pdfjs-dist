@@ -50,7 +50,7 @@ export class EventBus {
      * @ignore
      */
     _off(eventName: any, listener: any, options?: null): void;
-    #private;
+    private;
 }
 /**
  * @typedef {Object} WaitOnEventOrTimeoutParameters

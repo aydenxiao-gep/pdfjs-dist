@@ -244,6 +244,6 @@ export class AnnotationEditor {
      * @type {boolean}
      */
     get isEditing(): boolean;
-    #private;
+    private;
 }
 import { ColorManager } from "./tools.js";

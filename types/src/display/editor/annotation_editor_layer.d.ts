@@ -176,5 +176,5 @@ export class AnnotationEditorLayer {
      * @returns {Object} dimensions.
      */
     get pageDimensions(): Object;
-    #private;
+    private;
 }

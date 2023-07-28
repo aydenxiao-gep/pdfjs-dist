@@ -9,5 +9,5 @@ export class OptionalContentConfig {
     getGroups(): any;
     getGroup(id: any): any;
     getHash(): string;
-    #private;
+    private;
 }

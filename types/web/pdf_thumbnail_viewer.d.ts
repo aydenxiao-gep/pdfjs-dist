@@ -99,5 +99,5 @@ export class PDFThumbnailViewer {
      */
     setPageLabels(labels: any[] | null): void;
     forceRendering(): boolean;
-    #private;
+    private;
 }
